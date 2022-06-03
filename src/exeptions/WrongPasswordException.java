@@ -1,3 +1,5 @@
-public class WrongPasswordException extends Throwable {
-    
+package exeptions;
+
+public class WrongPasswordException extends RuntimeException {
+
 }

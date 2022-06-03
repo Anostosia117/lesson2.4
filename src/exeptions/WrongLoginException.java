@@ -1,4 +1,5 @@
-public class WrongLoginException extends Throwable {
-    public WrongLoginException(String s) {
+package exeptions;
+
+public class WrongLoginException extends RuntimeException {
     }
-}
+
